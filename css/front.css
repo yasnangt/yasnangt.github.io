@@ -8,6 +8,12 @@ body {
     left: 0;
     margin: 0;
 }
+.hamd{
+    padding-top: 100px;
+    padding-bottom: 467px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
 #fullscreen {
     z-index: -999;
     min-height: 100%;
