@@ -38,14 +38,13 @@ h3 {
     padding-bottom: 20px;
     font-weight: thin;
 }
-.content {
+
+.a{
     padding-top: 100px;
-    padding-bottom: 40px;
+    padding-bottom: 147px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-}
-.a{
-    padding-bottom: 107px;
+    
 }
 ul {
     list-style: none;
