@@ -16,7 +16,30 @@ permalink: /
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
+    <script>
+        $(function () {
+            new TypeIt('#element', {
+                speed: 45
+            })
+                .type('Merhaba')
+                .pause(300)
+                .options({ speed: 200 })
+                .delete(7)
+                .options({ speed: 45 })
+                .pause(300)
+                .type('Ben Yasin Angıt')
+                .pause(500)
+                .options({ speed: 200 })
+                .delete(15)
+                .type('Hoşgeldiniz.')
+                .pause(300)
+                .break()
+                
+        });
+    </script>
+      <link rel="stylesheet" href="css/a.css">
 
     </head>
     <body>
@@ -36,6 +59,34 @@ permalink: /
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
+        <script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+        <script src="jquery.blockUI.js"></script>
+        <script>
+            $(document).ready(function() { 
+        $.blockUI({ 
+            message: $('#ana'), 
+            css: { 
+                top:  ($(window).height() - 400) /2 + 'px', 
+                left: ($(window).width() - 400) /2 + 'px', 
+                width: '0px',
+                opacity: 1
+            },
+            overlayCSS : {
+                opacity: 1
+            }
+        }); 
+setTimeout($.unblockUI, 8000); 
+});         
+</script>
+        <div id="ana" style="display:none;">
+
+                <div id="icorta">    
+              
+                   <font size="48px"><p id="element"></p></font>
+
+                </div>
+              
+              </div>
          <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
