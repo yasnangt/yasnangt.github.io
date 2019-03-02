@@ -8,6 +8,11 @@ body {
     left: 0;
     margin: 0;
 }
+.hacker{
+    font-family: 'VT323', monospace;
+    text-align:center;
+}
+
 
 .hamd{
     padding-top: 100px;
